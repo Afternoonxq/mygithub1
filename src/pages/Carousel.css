@@ -1,0 +1,25 @@
+.carousel-container {
+    max-width: 800px; /* กำหนดความกว้าง */
+    margin: 0 auto;   /* จัดให้อยู่ตรงกลางหน้าจอ */
+    padding: 20px 0;  /* เพิ่มระยะห่างด้านบนและล่าง */
+}
+
+.custom-carousel-image {
+    height: 400px;        /* กำหนดความสูงให้เท่ากัน */
+    object-fit: cover;    /* ครอบรูปให้พอดีกับขนาด */
+    border-radius: 15px;  /* เพิ่มขอบโค้งมน */
+}
+
+.carousel-indicators button {
+    background-color: #666; /* ปรับสีปุ่ม Indicator */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* พื้นหลังปุ่ม */
+    border-radius: 50%;                   /* ปุ่มกลม */
+    padding: 10px;
+}
